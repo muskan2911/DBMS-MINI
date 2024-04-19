@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patent Details | SRM Institute</title>
+  <link rel="stylesheet" href="patent.css">
+</head>
+<body>
+  <div class="header">
+    <img src="Srmseal.png" alt="Logo" class="logo">
+    <h1>SRM INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
+    <div class="patent-type">
+      <button onclick="setPatentType('product')" id="productButton">Product Patent</button>
+      <button onclick="setPatentType('design')" id="designButton">Design Patent</button>
+    </div>
+  </div>
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search by title, patent ID, or author name">
+    <button onclick="search()">Search</button>
+  </div>
+  <div class="patent-list" id="patentList">
+    <!-- Patent details will be dynamically populated here -->
+  </div>
+  <div class="footer">
+    <p>© 2024 SRM Institute of Science and Technology. All rights reserved.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

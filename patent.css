@@ -1,0 +1,99 @@
+/* patent.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+  
+  h1 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .patent-type {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .patent-type button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc; /* Default button color */
+    color: #333;
+    cursor: pointer;
+    margin: 0 10px; /* Add margin between buttons */
+  }
+  
+  /* Style for active button */
+  .patent-type button.active {
+    background-color: #0066cc;
+    color: #fff;
+  }
+  
+  .patent-type button:hover {
+    background-color: #ddd; /* Button color on hover */
+  }
+  
+  .search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0066cc;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056a9;
+  }
+  
+  .patent-list {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .patent-item {
+    background-color: #fff;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 16px;
+  }
+  
+  .patent-item h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
